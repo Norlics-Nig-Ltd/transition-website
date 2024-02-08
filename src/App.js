@@ -15,39 +15,44 @@ function App() {
           <h1 className="font-extrabold text-5xl">
             Chief Sir Lazurus Ikechukwu Okolie (KSM)
           </h1>
-          <h3 className="text-xl mt-2">MD/CEO AT NORLIC NIGERIA LTD</h3>
-          <h3 className="text-xl mt-2">(Ugochinyere 1 of Eke)</h3>
-          <p className="text-xl">
-            He was an information communication and Technology Professional and
-            an exemplary leader with diverse experience in enterprise
-            information systems, having acquired certifications such as CISA,
-            CISM, CGEIT, & CRISCISACA, to mention a few.  In his past roles as
-            the CTO/CIO, he successfully designed, deployed and managed
-            enterprise IT solutions for a number of banks in Nigeria. He took an
-            early retirement from banking as a General Manager and continued in
-            his chosen profession through his nomination as the board member of
-            a number of IT and other high performing companies. Eventually, he
-            founded Norlics Limited which later gave birth to Norlics Digital
-            Services where he sat as the MD/CEO until his death.
-          </p>
-          <p className="text-xl">
-            Educationally, he attained a B.Eng in computer science and
-            engineering, an M.Sc in computer science. He also attended several
-            prestigious management and leadership courses and training both
-            locally and internationally including the Harvard Business School,
-            Boston, Massachusetts, USA and the Gartner CIO Academy, Sandiego,
-            USA. In addition, he travelled widely having visited countries like
-            the USA, Canada, South Africa, Singapore and so on.
-          </p>
-          <p className="text-xl">
-            He was a Honorary Senior Member of the CIBN, Fellow Association of
-            Enterprise Risk Management Professionals, AERMP, Fellow Institute of
-            Cost Management Professionals of Nigeria (ICMPN) among others.
-          </p>
-          <p className="text-xl">
-            He is survived by his wife, many gifted children, aged parents,
-            brothers, sisters and other close relatives.
-          </p>{" "}
+          <div className="flex flex-col gap-5 text-lg">
+            <div className="text-xl">
+              <h3>MD/CEO AT NORLIC NIGERIA LTD</h3>
+              <h3>(Ugochinyere 1 of Eke)</h3>
+            </div>
+            <p>
+              He was an information communication and Technology Professional
+              and an exemplary leader with diverse experience in enterprise
+              information systems, having acquired certifications such as CISA,
+              CISM, CGEIT, & CRISCISACA, to mention a few.  In his past roles as
+              the CTO/CIO, he successfully designed, deployed and managed
+              enterprise IT solutions for a number of banks in Nigeria. He took
+              an early retirement from banking as a General Manager and
+              continued in his chosen profession through his nomination as the
+              board member of a number of IT and other high performing
+              companies. Eventually, he founded Norlics Limited which later gave
+              birth to Norlics Digital Services where he sat as the MD/CEO until
+              his death.
+            </p>
+            <p>
+              Educationally, he attained a B.Eng in computer science and
+              engineering, an M.Sc in computer science. He also attended several
+              prestigious management and leadership courses and training both
+              locally and internationally including the Harvard Business School,
+              Boston, Massachusetts, USA and the Gartner CIO Academy, Sandiego,
+              USA. In addition, he travelled widely having visited countries
+              like the USA, Canada, South Africa, Singapore and so on.
+            </p>
+            <p>
+              He was a Honorary Senior Member of the CIBN, Fellow Association of
+              Enterprise Risk Management Professionals, AERMP, Fellow Institute
+              of Cost Management Professionals of Nigeria (ICMPN) among others.
+            </p>
+            <p>
+              He is survived by his wife, many gifted children, aged parents,
+              brothers, sisters and other close relatives.
+            </p>{" "}
+          </div>
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  bg-[#323232] p-8 md:p-40">
