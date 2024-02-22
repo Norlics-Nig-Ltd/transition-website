@@ -118,37 +118,161 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  bg-[#323232] p-8 md:p-40">
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz2.png`}
-          alt="ogaLas2"
-          className=" w-[800px] md:w-[300px]"
-        />
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz3.svg`}
-          alt="ogaLas3"
-          className=" w-[800px] md:w-[300px]"
-        />
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz4.svg`}
-          alt="ogaLas4"
-          className=" w-[800px] md:w-[300px]"
-        />
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz5.png`}
-          alt="ogaLas5"
-          className=" w-[800px] md:w-[300px]"
-        />
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz6.svg`}
-          alt="ogaLas6"
-          className=" w-[800px] md:w-[300px]"
-        />
-        <img
-          src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz7.svg`}
-          alt="ogaLas7"
-          className=" w-[800px] md:w-[300px]"
-        />
+      <div className="flex  flex-col gap-10  bg-[#323232] ">
+        <div className="mt-8 ">
+          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-16">
+            Career
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/career1.jpg`}
+              alt="ogaLas2"
+              className=" w-[800px] md:w-[350px] h-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz3.svg`}
+              alt="ogaLas3"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz4.svg`}
+              alt="ogaLas4"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz6.svg`}
+              alt="ogaLas6"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz7.svg`}
+              alt="ogaLas7"
+              className=" w-[800px] md:w-[350px]"
+            />
+          </div>
+        </div>
+
+        <div className=" ">
+          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-16">
+            Marriage/Family
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage1.jpg`}
+              alt="marriage1"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage2.jpg`}
+              alt="ogaLas3"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage3.jpg`}
+              alt="ogaLas4"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage4.jpg`}
+              alt="ogaLas5"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage5.jpg`}
+              alt="ogaLas6"
+              className=" w-[800px] md:w-[350px]"
+            />
+          </div>
+        </div>
+
+        <div className=" ">
+          {/* <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-10">
+            Marriage/Family
+          </h2> */}
+          <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage6.jpg`}
+              alt="ogaLas7"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage7.jpg`}
+              alt="ogaLas3"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage8.jpg`}
+              alt="ogaLas4"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage9.jpg`}
+              alt="ogaLas5"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage10.jpg`}
+              alt="ogaLas6"
+              className=" w-[800px] md:w-[350px]"
+            />
+          </div>
+        </div>
+
+        <div className=" ">
+          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-20">
+            Religion
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/religion1.jpg`}
+              alt="ogaLas2"
+              className=" w-[800px] md:w-[600px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/religion2.jpg`}
+              alt="ogaLas4"
+              className=" w-[800px] md:w-[600px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/religion3.jpg`}
+              alt="ogaLas5"
+              className=" w-[800px] md:w-[600px]"
+            />
+          </div>
+        </div>
+
+        <div className=" ">
+          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-16">
+            Traditional
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional1.jpg`}
+              alt="ogaLas2"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional2.jpg`}
+              alt="ogaLas3"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional3.jpg`}
+              alt="ogaLas4"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional4.jpg`}
+              alt="ogaLas5"
+              className=" w-[800px] md:w-[350px]"
+            />
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional5.jpg`}
+              alt="ogaLas6"
+              className=" w-[800px] md:w-[350px]"
+            />
+          </div>
+        </div>
       </div>
       {/* /////////////implement///////// */}
       <form
