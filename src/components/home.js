@@ -118,14 +118,14 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="flex  flex-col gap-10  bg-[#323232] ">
+      <div className="flex  flex-col md:gap-10  bg-[#323232] ">
         <div className="mt-8 ">
-          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-16">
+          <h2 className="text-[#FFFFFF] text-3xl md:text-5xl font-extrabold ml-9 md:ml-16">
             Career
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/career1.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/career1.png`}
               alt="ogaLas2"
               className=" w-[800px] md:w-[350px] h-[350px]"
             />
@@ -140,45 +140,50 @@ function Home() {
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz6.svg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/Oga&Akunna.png`}
               alt="ogaLas6"
               className=" w-[800px] md:w-[350px]"
             />
             <img
+              src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz6.svg`}
+              alt="ogaLas6"
+              className=" w-[800px] md:w-[350px]"
+            />
+            {/* <img
               src={`${process.env.PUBLIC_URL}/assets/images/ogaLaz7.svg`}
               alt="ogaLas7"
               className=" w-[800px] md:w-[350px]"
-            />
+            /> */}
           </div>
         </div>
 
         <div className=" ">
-          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-16">
+          <h2 className="text-[#FFFFFF] text-3xl md:text-5xl font-extrabold  ml-9 md:ml-16">
             Marriage/Family
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage1.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage1.png`}
               alt="marriage1"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage2.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage2.png`}
               alt="ogaLas3"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage3.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage3.png`}
               alt="ogaLas4"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage4.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage4.png`}
               alt="ogaLas5"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage5.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage5.png`}
               alt="ogaLas6"
               className=" w-[800px] md:w-[350px]"
             />
@@ -191,27 +196,27 @@ function Home() {
           </h2> */}
           <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage6.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage6.png`}
               alt="ogaLas7"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage7.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage7.png`}
               alt="ogaLas3"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage8.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage8.png`}
               alt="ogaLas4"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage9.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage1.png`}
               alt="ogaLas5"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/marriage10.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/marriage10.png`}
               alt="ogaLas6"
               className=" w-[800px] md:w-[350px]"
             />
@@ -219,22 +224,22 @@ function Home() {
         </div>
 
         <div className=" ">
-          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-20">
+          <h2 className="text-[#FFFFFF] text-3xl md:text-5xl font-extrabold ml-9 md:ml-20">
             Religion
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/religion1.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/religion1.png`}
               alt="ogaLas2"
               className=" w-[800px] md:w-[600px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/religion2.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/religion2.png`}
               alt="ogaLas4"
               className=" w-[800px] md:w-[600px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/religion3.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/religion3.png`}
               alt="ogaLas5"
               className=" w-[800px] md:w-[600px]"
             />
@@ -242,32 +247,32 @@ function Home() {
         </div>
 
         <div className=" ">
-          <h2 className="text-[#FFFFFF] text-5xl font-extrabold ml-16">
+          <h2 className="text-[#FFFFFF] text-3xl md:text-5xl font-extrabold ml-9 md:ml-16">
             Traditional
           </h2>
           <div className="flex flex-col md:flex-row justify-center gap-8  md:w-full  p-8 md:p-10">
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/traditional1.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional1.png`}
               alt="ogaLas2"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/traditional2.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional2.png`}
               alt="ogaLas3"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/traditional3.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional3.png`}
               alt="ogaLas4"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/traditional4.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional4.png`}
               alt="ogaLas5"
               className=" w-[800px] md:w-[350px]"
             />
             <img
-              src={`${process.env.PUBLIC_URL}/assets/images/traditional5.jpg`}
+              src={`${process.env.PUBLIC_URL}/assets/images/traditional5.png`}
               alt="ogaLas6"
               className=" w-[800px] md:w-[350px]"
             />
