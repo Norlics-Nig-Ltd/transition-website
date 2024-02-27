@@ -20,18 +20,18 @@ const Pagination = ({
     setActivePage(pageNumbers);
   };
   return (
-    <nav className="flex items-center justify-between ">
-      <h1>
+    <nav className="flex items-center justify-between w-full sm:ml-20">
+      <h1 className="hidden lg:block">
         Showing {currentPage * 10 - 9} - {currentPage * 10} out of{" "}
         {totalComments}{" "}
       </h1>
-      <ul className="flex gap-5 text-xl ">
+      <ul className="flex gap-3 sm:gap-5 lg:gap-5 text-xl ">
         {Array(pageNumbers)
           .fill(0)
           .map((_, i) => (
             <li
               key={i}
-              className={`w-12 border border-[#3f3f3f]  bg-[#3f3f3f] p-2 rounded-md text-center ${
+              className={` w-11 sm:w-12 lg:w-12 border border-[#3f3f3f]  bg-[#3f3f3f] p-2 rounded-md text-center  ${
                 activePage === i + 1
                   ? "bg-white text-black"
                   : "bg-[#3f3f3f] text-white"
@@ -41,7 +41,9 @@ const Pagination = ({
             </li>
           ))}
       </ul>
-      <p>Result per page {currentComments?.length}</p>
+      <p className="hidden lg:block">
+        Result per page {currentComments?.length}
+      </p>
     </nav>
   );
 };
