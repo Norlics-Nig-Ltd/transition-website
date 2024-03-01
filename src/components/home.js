@@ -8,11 +8,15 @@ function Home() {
   const [errorName, setErrorName] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (isSubmitting) return;
+    setIsSubmitting(true);
 
     let formIsValid = true;
 
@@ -56,11 +60,16 @@ function Home() {
 
           setTimeout(() => {
             setSuccessMessage("");
+            setIsSubmitting(false); // Set form submission to false after success
           }, 5000);
         }
       } catch (error) {
         console.error("Error sending mesaage:", error);
+      } finally {
+        setIsSubmitting(false);
       }
+    } else {
+      setIsSubmitting(false);
     }
   };
 
@@ -320,20 +329,21 @@ function Home() {
         <div className="w-[100%] md:w-64 bg-white ">
           <button
             type="submit"
+            disabled={isSubmitting}
             className="w-[100%] md:w-60 h-14 text-[#000000] font-semibold"
           >
-            SUBMIT
+            {isSubmitting ? "Submitting..." : "SUBMIT"}
           </button>
         </div>
         <div>
-          <buton
+          <button
             onClick={() => {
               navigate("/comments");
             }}
             className="cursor-pointer sm:text-base"
           >
             View Other Tributes
-          </buton>
+          </button>
         </div>
       </form>
       {/* /////////////implement///////// */}
