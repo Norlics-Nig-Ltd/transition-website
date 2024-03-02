@@ -31,19 +31,19 @@ const Comments = () => {
     fetchComments();
   }, []);
 
-  const deleteComment = async (id) => {
-    try {
-      const res = await axios.delete(
-        `https://ksm-o008.onrender.com/api/v1/delete-message/${id}`
-      );
-      // Fetch updated comments after successful deletion
-      if (res.status === 200) {
-        fetchComments();
-      }
-    } catch (error) {
-      console.error("Error deleting comment:", error);
-    }
-  };
+  // const deleteComment = async (id) => {
+  //   try {
+  //     const res = await axios.delete(
+  //       `https://ksm-o008.onrender.com/api/v1/delete-message/${id}`
+  //     );
+  //     // Fetch updated comments after successful deletion
+  //     if (res.status === 200) {
+  //       fetchComments();
+  //     }
+  //   } catch (error) {
+  //     console.error("Error deleting comment:", error);
+  //   }
+  // };
 
   useEffect(() => {
     setCommentsShowing(comments.slice(currentPage * 10 - 10, currentPage * 10));
@@ -95,12 +95,12 @@ const Comments = () => {
             className="flex  flex-col-reverse md:gap-10 gap-5"
           >
             <div className="border  border-[#373737] h-[3px] md:mt-28"></div>
-            <button
+            {/* <button
               className=" md:w-[100%] lg:w-[60%] text-right text-xl text-red-700 "
               onClick={() => deleteComment(comment._id)}
             >
               Delete Comment
-            </button>
+            </button> */}
             <div className="mt-5 md:mt-10">
               <strong className="text-2xl ">{comment.name}</strong>
               <p className="text-xl mt-5 md:w-[100%] lg:w-[60%]  h-fit  leading-8 ">
